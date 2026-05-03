@@ -334,7 +334,7 @@ class SmartFoldingCommand(sublime_plugin.TextCommand):
                 self.view.run_command('unindent')
             else:
                 # Finally, here it is correct to insert a '\t'
-                for r in self.view.sel():
+                for r in reversed(self.view.sel()):
                     self.view.insert(edit, r.a, '\t')
                     self.view.show(r)
 
