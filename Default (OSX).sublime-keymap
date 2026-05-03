@@ -83,7 +83,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.restructuredtext" }
         ]
     },
-    { "keys": ["altl+keypad_minus"], "command": "header_change_level", "args": {"offset": 1}, "context":
+    { "keys": ["alt+keypad_minus"], "command": "header_change_level", "args": {"offset": 1}, "context":
         [
             { "key": "selector", "operator": "equal", "operand": "text.restructuredtext" }
         ]
